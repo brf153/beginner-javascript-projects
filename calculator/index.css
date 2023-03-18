@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+
+.calculator {
+    margin-left: 35%;
+    margin-top: 15%;
+    background-color: purple;
+    width: fit-content;
+    padding: 10px 5px;
+}
+
+.buttons{
+    display: grid;
+    grid-auto-flow: column;
+    width: 244px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 14px;
+}
+
+.clr-btn {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: red;
+    border: 2px solid purple;
+    border-radius: 10px;
+    width: 64px;
+    margin-left: 86px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.screen {
+    height: 77px;
+    padding-left: 79px;
+    background-color: black;
+    padding-top: 38px;
+    width: 166px;
+    color: red;
+    pointer-events: none;
+    text-align: right;
+}
+
+.buttons div {
+    margin: 4px 2px;
+    /* background-color: white; */
+}
+
+.col-1 div {
+    background-color: white;
+    cursor: pointer;
+}
+
+.col-2 div {
+    background-color: white;
+    cursor: pointer;
+}
+
+.col-3 div {
+    background-color: white;
+    cursor: pointer;
+}
+
+.col-4 div {
+    background-color: white;
+    cursor: pointer;
+}
+
+#result{
+    background-color: green;
+    cursor: pointer;
+}
+
